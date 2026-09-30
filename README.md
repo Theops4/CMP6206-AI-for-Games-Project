@@ -2,6 +2,10 @@
 
 ## TODO: Add the following details and update regularly
 
+ANT WARS
+2 rival ant factions fighting eachother for survival 
+AI features: FSM, pathfinding
+
 1. Name of your project
 2. Description/overview - What AI features will the project have/showcase and in what way will they be realised.  For example, for FSM what type of agents will be created using FSM such as enemies, companion, allies, etc.  
 3. Target game engine - Note: you should add an appropriate .gitignore file for the game engine you are using so you don't end up uploading extraneous files that increase the size of the repo.  There are .gitignore files for Unity and Unreal, and other game engines, available from https://github.com/github/gitignore.  For C++ using Visual Studio use the Visual Studio .gitignore but note that it needs some modification as .lib files necessary for building a C++ project are ignored by default.
