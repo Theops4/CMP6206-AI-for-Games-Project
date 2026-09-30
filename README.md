@@ -3,7 +3,9 @@
 ## TODO: Add the following details and update regularly
 
 ANT WARS
+
 2 rival ant factions fighting eachother for survival 
+
 AI features: FSM, pathfinding
 
 1. Name of your project
