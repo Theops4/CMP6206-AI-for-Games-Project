@@ -4,9 +4,9 @@
 
 ANT WARS
 
-2 rival ant factions fighting eachother for survival 
+2 rival ant factions fighting each other for survival 3 different types of ants each with a different AI
 
-AI features: FSM, pathfinding
+AI features: FSM, Behaviour trees and GOAP
 
 1. Name of your project
 2. Description/overview - What AI features will the project have/showcase and in what way will they be realised.  For example, for FSM what type of agents will be created using FSM such as enemies, companion, allies, etc.  
