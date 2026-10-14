@@ -11,10 +11,7 @@ public class Agent : MonoBehaviour
     void Update()
     {
         sm.Update();
-        if (!(sm.CurrentState is IdleState))
-        {
-            sm.ChangeState(new WalkState(this));
-        }
+        
     }
 
     void OnCollisionEnter(Collision collision)
@@ -23,7 +20,7 @@ public class Agent : MonoBehaviour
 
         if (collision.gameObject.CompareTag("FOOD"))
         {
-            sm.ChangeState(new IdleState(this));
+            sm.ChangeState(new EatState(this));
         }
 
     }
