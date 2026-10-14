@@ -22,10 +22,11 @@ public class WalkState : State
     }
     public override void Execute()
     {
-        Debug.Log(count);
+        
         count++;
-        if (count > 120)
+        if (count > 150)
         {
+            Debug.Log(count);
             animationComponent.Stop("Take 001");
             count = 0;
             animationComponent.Play("Take 001");

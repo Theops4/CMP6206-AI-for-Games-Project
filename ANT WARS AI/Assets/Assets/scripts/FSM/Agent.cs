@@ -6,7 +6,8 @@ public class Agent : MonoBehaviour
     void Start()
     {
         sm.ChangeState(new WalkState(this));
-    }
+        
+}
 
     void Update()
     {

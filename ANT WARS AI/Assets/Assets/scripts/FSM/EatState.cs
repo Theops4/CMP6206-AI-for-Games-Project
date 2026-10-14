@@ -21,10 +21,12 @@ public class EatState : State
     }
     public override void Execute()
     {
-        Debug.Log("Executing Eat State");
+        
         count ++;
-        if (count > 400)
+        if (count > 2100)
         {
+            Debug.Log(count);
+            Debug.Log("Restarting Eat Animation");
             animationComponent.Stop("Take 001");
             count = 0;
             animationComponent.Play("Take 001");
