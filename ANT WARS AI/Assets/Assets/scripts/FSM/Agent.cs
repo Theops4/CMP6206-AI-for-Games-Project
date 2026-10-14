@@ -5,19 +5,26 @@ public class Agent : MonoBehaviour
     StateManager sm = new StateManager();
     void Start()
     {
-        sm.ChangeState(new IdleState(this));
+        sm.ChangeState(new WalkState(this));
     }
 
     void Update()
     {
         sm.Update();
-        if (this.transform.position.x > 5)
+        if (!(sm.CurrentState is IdleState))
         {
             sm.ChangeState(new WalkState(this));
         }
-        else if (this.transform.position.x < -5)
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log($"Collision detected with: {collision.gameObject.name}, Tag: {collision.gameObject.tag}");
+
+        if (collision.gameObject.CompareTag("FOOD"))
         {
             sm.ChangeState(new IdleState(this));
         }
+
     }
 }

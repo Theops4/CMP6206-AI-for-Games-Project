@@ -15,6 +15,7 @@ public class WalkState : State
     public override void Execute()
     {
         Debug.Log("Executing Walk State");
+        owner.transform.Translate(-Vector3.right * Time.deltaTime);
     }
     public override void Exit()
     {

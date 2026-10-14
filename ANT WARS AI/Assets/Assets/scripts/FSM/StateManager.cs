@@ -3,7 +3,9 @@ using UnityEngine;
 public class StateManager 
 {
     State CurrState;
-    
+
+    public State CurrentState => CurrState;
+
     public void ChangeState(State newState)
     {
         if (CurrState != null)

@@ -30,6 +30,3 @@ ScriptedImporter:
     code: 20
     messages:
     - KHR_materials_specular
-  - type: 3
-    code: 36
-    messages: []
