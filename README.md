@@ -3,9 +3,10 @@
 2 rival ant factions fighting each other for survival 3 different types of ants each with a different AI. Worker ants going to collect food will use FSM, Soldier ants protecting the nest will use GOAP and the defending queen will use behaviour trees. This project is a hands free showcase of different AIs hence you wont actually play you will simply choose your side and watch how they interact and hope your team wins!
 
 AI features: FSM, Behaviour trees and GOAP. 
-FSM will be implemented on basic worker ants giving them states such as seek, flee and eat. 
-Behaviour trees will be implemented for the queen ant allowing it to have a more complex set of behaviours than the basic workers as the queen will be managing the size of the colony
-GOAP will be implemented for Soldier ants giving them a dynamic planning system allowing them to strategize against the enemy ants in real time hopefully causing interesting interactions 
+
+1. FSM will be implemented on basic worker ants giving them states such as seek, flee and eat. 
+2. Behaviour trees will be implemented for the queen ant allowing it to have a more complex set of behaviours than the basic workers as the queen will be managing the size of the colony.
+3. GOAP will be implemented for Soldier ants giving them a dynamic planning system allowing them to strategize against the enemy ants in real time hopefully causing interesting interactions.
 
 Target game engine is unity 
 
