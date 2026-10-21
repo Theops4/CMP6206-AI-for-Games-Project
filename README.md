@@ -21,6 +21,8 @@ TODO (sort of in order):
 4. Plan out and build the game map
 5. Implement more advanced behaviours for all 3 AIs 
 6. Integrate everything into one game scene
-7. Debug and Test 
+7. Debug and Test
+
+Code profiling: Monitor RAM usage especially when implementing the pheromone system
 
 Ant model used: "Walking Ant" (https://skfb.ly/oQ8sz) by kenchoo is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
