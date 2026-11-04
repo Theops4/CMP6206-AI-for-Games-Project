@@ -10,7 +10,12 @@ AI features: FSM, Behaviour trees and GOAP.
 
 Target game engine is unity 
 
-Taking inspiration from real life ant colonies I aim to implement a pheromone system to alert other ants when a member of the colony finds something like a rival ant or food. The plan for this pheromone system is for ants to leave a trail of invisible detection cubes behind which other ants will be able to collide with and cause a response based on what the stimuli was. 
+Taking inspiration from real life ant colonies I aim to implement a pheromone system to alert other ants when a member of the colony finds something like a rival ant or food. The plan for this pheromone system is for ants to leave a trail of invisible detection cubes behind which other ants will be able to collide with and cause a response based on what the stimuli was.
+
+Level design (Design inspired from league of legends: 3 main paths to force interactions)
+<img width="450" height="250" alt="mapa" src="https://github.com/user-attachments/assets/1855e665-3c98-4203-86dd-6f5c07d2972e" />
+
+
 
 Methodology - Kanban board on trello : Simple plan of action is to work on the AI functionalities first getting my 3 models working then work on the other aspects such as level design and pathfinding algorithms 
 
