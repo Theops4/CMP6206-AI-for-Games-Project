@@ -25,4 +25,13 @@ public class Agent : MonoBehaviour
         }
 
     }
+
+    void OnCollisionExit(Collision collision)
+    {
+        Debug.Log($"Collision ended with: {collision.gameObject.name}, Tag: {collision.gameObject.tag}");
+        if (collision.gameObject.CompareTag("FOOD"))
+        {
+            sm.ChangeState(new WalkState(this));
+        }
+    }
 }

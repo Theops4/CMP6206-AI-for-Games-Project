@@ -16,18 +16,21 @@ public partial class GuardAction : Action
 
     protected override Status OnStart()
     {
-  
-        count = 0;
-        animationComponent = Self.Value.GetComponent<Animation>();
         collisionSensor = Self.Value.GetComponent<QueenCollision>();
-        AnimationState state = animationComponent["Take 001"];
-        state.time = 120f / 60f; // Set the time to start from frame 120
-        animationComponent.Play("Take 001");
         if (collisionSensor.isAttacking)
         {
+            
+            count = 0;
+            animationComponent = Self.Value.GetComponent<Animation>();
+            AnimationState state = animationComponent["Take 001"];
             animationComponent.Play("Take 001");
+            state.time = 120f / 60f; // Set the time to start from frame 120
+            return Status.Running;
         }
-        return Status.Running;
+        else
+        {
+            return Status.Failure;
+        }
     }
 
     protected override Status OnUpdate()
