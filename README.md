@@ -17,16 +17,25 @@ Level design (Design inspired from league of legends: 3 main paths to force inte
 
 
 
-Methodology - Kanban board on trello : Simple plan of action is to work on the AI functionalities first getting my 3 models working then work on the other aspects such as level design and pathfinding algorithms 
+Methodology - Kanban(below) : Simple plan of action is to work on the AI functionalities first getting my 3 models working then work on the other aspects such as level design and pathfinding algorithms 
 
 TODO (sort of in order):
-1. Implement basic behaviour tree
-2. Implement basic GOAP
-3. Construct a pathfinding algorithm
-4. Plan out and build the game map
+1. Construct a pathfinding solution
+2. Plan out and build the game map
+3. Workout sensors
+4. Make Pheremone system
 5. Implement more advanced behaviours for all 3 AIs 
 6. Integrate everything into one game scene
 7. Debug and Test
+
+In Progress:
+1. Implement basic GOAP - still need to add in base behaviour
+2. Construct a pathfinding solution - need to start pathfinding
+
+DONE:
+1. Implement basic FSM
+2. Implement basic BT
+3. Implement basic GOAP
 
 Code profiling: Monitor RAM usage especially when implementing the pheromone system
 
