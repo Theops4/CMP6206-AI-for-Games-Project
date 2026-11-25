@@ -34,8 +34,18 @@ In Progress:
 
 DONE:
 1. Implement basic FSM
+   
+<img width="250" height="80" alt="Recording 2026-11-11 151513" src="https://github.com/user-attachments/assets/1043f1e7-43fd-4c19-a823-ed33f07562b5" />
+   
 2. Implement basic BT
+   
+   <img width="250" height="80" alt="Recording 2026-11-11 151936" src="https://github.com/user-attachments/assets/136fd700-09d7-4087-8f76-0a2a80711885" />
+   
 3. Implement basic GOAP
+   
+   <img width="200" height="120" alt="ant" src="https://github.com/user-attachments/assets/4ad1d5c6-edc9-4790-ad7d-4cd38a96565a" />
+
+
 
 Code profiling: Monitor RAM usage especially when implementing the pheromone system
 
