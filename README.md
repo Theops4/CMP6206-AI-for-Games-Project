@@ -21,12 +21,11 @@ Methodology - Kanban(below) : Simple plan of action is to work on the AI functio
 
 TODO (sort of in order):
 1. Construct a pathfinding solution
-2. Plan out and build the game map
-3. Workout sensors
-4. Make Pheremone system
-5. Implement more advanced behaviours for all 3 AIs 
-6. Integrate everything into one game scene
-7. Debug and Test
+2. Workout sensors
+3. Make Pheremone system
+4. Implement more advanced behaviours for all 3 AIs 
+5. Integrate everything into one game scene
+6. Debug and Test
 
 In Progress:
 1. Implement basic GOAP - still need to add in base behaviour
@@ -44,7 +43,8 @@ DONE:
 3. Implement basic GOAP
    
    <img width="200" height="120" alt="ant" src="https://github.com/user-attachments/assets/4ad1d5c6-edc9-4790-ad7d-4cd38a96565a" />
-
+4. Plan out and build the game map
+<img width="450" height="250" alt="Screenshot 2026-11-25 193035" src="https://github.com/user-attachments/assets/79a76b08-ca9a-4b14-81a2-315d46642abf" />
 
 
 Code profiling: Monitor RAM usage especially when implementing the pheromone system
